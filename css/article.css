@@ -18,22 +18,9 @@ html {
       -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
     }
 
-    @keyframes colorchange
-    {
-      0%   {background: #FFF;}
-      
-      
-      100% {background: #FFF;}
+
     }
 
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-    {
-      0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
-    }
 
 
 
