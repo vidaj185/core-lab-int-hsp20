@@ -13,13 +13,11 @@ html {
     body {
         padding:5rem 0;
 
-      animation: colorchange 30s infinite; /* animation-name followed by duration in seconds*/
-         /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
+     
     }
 
 
-    }
+
 
 
 
