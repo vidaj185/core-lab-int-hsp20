@@ -1,0 +1,125 @@
+#ds-container {
+  display:grid;
+  grid-template-columns: 3fr 8fr 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 1rem;
+}
+main {
+  width:80vw;
+  margin: 0 auto;
+  background-color: #eeeeee;
+}
+
+section {
+background: #fff;
+padding: 1rem;
+margin-bottom:2rem;
+  box-shadow: 3px 3px 2px 1px rgba(111, 111, 111, .2);
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lacquer";
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3.375rem;
+}
+h3 {
+  font-size:2.25rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+#left-sidebar {
+  grid-column:1/2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#main-content {
+  grid-column: 2 / 3;
+}
+
+#right-sidebar {
+  grid-column: 3 / 4;
+}
+
+p, li {
+  font-size: 1rem;
+  line-height:1.5;
+  margin-bottom: 1rem;
+  font-family: "Abel";
+}
+
+ .color-1 {
+    background-color: #c7f0db;
+  }
+    .color-2 {
+    background-color: #F2BC1B;
+  }
+    .color-3 {
+    background-color: #F2B138;
+  }
+    .color-4 {
+    background-color: #A66312;
+  }
+    .color-5 {
+    background-color: #736048;
+  }
+
+
+.primary-hue {
+  display: flex;
+  padding:3rem 1rem;
+  color:#c7f0db;
+  font-family: "Abel";
+}
+
+.primary-hue > div {
+  width:33%;
+}
+
+.secondary-hue {
+  display: flex;
+  padding:1.5rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.secondary-hue > div {
+  width:33%;
+}
+
+.neutral-hue {
+  display: flex;
+  padding:1.5rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.neutral-hue > div {
+  width:33%;
+}
+
+.accent-hue {
+  display: flex;
+  padding:.5rem 1rem;
+  color:#ffffff;
+  font-family: Montserrat;
+}
+
+.accent-hue > div {
+  width:33%;
+}
